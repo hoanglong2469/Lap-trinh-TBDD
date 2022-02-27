@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="Nhập tên: "
+            android:textSize="22sp"
+            android:textColor="@color/black"
+            android:background="#E1C778"
+            android:gravity="center"
+            android:layout_marginRight="10dp"
+            android:layout_width="100dp"
+            android:layout_height="40dp"/>
+
+        <EditText
+            android:id="@+id/edittext_nhapten"
+            android:hint="Nhập vào tên"
+            android:textSize="22sp"
+            android:layout_marginRight="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/button_nhap"
+        android:text="Nhập"
+        android:textAllCaps="false"
+        android:textSize="22sp"
+        android:background="#C3BCBC"
+        android:textColor="@color/black"
+        android:layout_marginLeft="110dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/textview_hienthi"
+        android:textSize="22sp"
+        android:textColor="@color/black"
+        android:background="#79CDC5"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    <ListView
+        android:id="@+id/listview_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
