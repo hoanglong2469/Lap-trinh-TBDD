@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProductActivity">
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="Exit" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/ed_ID_ac2"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter ID" />
+
+        <EditText
+            android:id="@+id/ed_Name_ac2"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter Name" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/ed_unit_ac2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter unit" />
+
+    <EditText
+        android:id="@+id/ed_Madein_ac2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter made in" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSelect_Ac2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select" />
+
+        <Button
+            android:id="@+id/btnSave_Ac2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save" />
+
+        <Button
+            android:id="@+id/btnUpdate_Ac2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update" />
+
+        <Button
+            android:id="@+id/btnDelete_Ac2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Del" />
+
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/gridView_ac2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="4" />
+
+</LinearLayout>

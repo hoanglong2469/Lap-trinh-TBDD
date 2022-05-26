@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "512431834885",
+    "firebase_url": "https://phamdangdan-ktth-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "phamdangdan-ktth",
+    "storage_bucket": "phamdangdan-ktth.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:512431834885:android:cdf5762f7f2aae7b56196c",
+        "android_client_info": {
+          "package_name": "com.example.on_tap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "512431834885-nkesvmucg0cbvte350n01ivcqqe0fav5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxAAcinFSg6r-YzrxI_maRDj0YpUh9rgw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "512431834885-nkesvmucg0cbvte350n01ivcqqe0fav5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
