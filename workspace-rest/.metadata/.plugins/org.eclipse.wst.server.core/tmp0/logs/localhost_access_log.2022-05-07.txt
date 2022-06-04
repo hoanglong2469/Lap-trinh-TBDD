@@ -1,0 +1,6 @@
+127.0.0.1 - - [07/May/2022:18:53:24 +0700] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [07/May/2022:18:53:25 +0700] "GET /spring-rest-crm-crud/ HTTP/1.1" 404 682
+127.0.0.1 - - [07/May/2022:18:53:26 +0700] "GET /spring-rest-crm-crud/api/customers HTTP/1.1" 200 908
+0:0:0:0:0:0:0:1 - - [07/May/2022:18:53:27 +0700] "GET /spring-rest-crm-crud-client/ HTTP/1.1" 200 6025
+0:0:0:0:0:0:0:1 - - [07/May/2022:18:53:27 +0700] "GET /spring-rest-crm-crud-client/resources/js/bootstrap.min.js HTTP/1.1" 200 48944
+0:0:0:0:0:0:0:1 - - [07/May/2022:18:53:27 +0700] "GET /spring-rest-crm-crud-client/resources/css/bootstrap.min.css HTTP/1.1" 200 144877

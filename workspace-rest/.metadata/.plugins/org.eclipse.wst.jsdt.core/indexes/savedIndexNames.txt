@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+F:\IUH.STUDY\K2N3_2022\www\workspace-rest\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+320892981.index
+2167294132.index
+45481178.index
+4202614440.index
+3331021695.index
+1229642742.index
+3038734452.index
